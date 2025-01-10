@@ -3,7 +3,7 @@ region = "ap-south-2"
 }
 
 resource "aws_instance" "one" {
-ami = "ami-0e001c9271cf7f3b9"
+ami = "ami-08a2b7219e5017d9e"
 instance_type = "t3.micro"
 tags = {
 Name = "rajesh-server"
